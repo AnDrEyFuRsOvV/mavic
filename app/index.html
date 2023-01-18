@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Ubuntu:wght@300;500;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -17,7 +18,7 @@
 
   <header class="header">
     <div class="container">
-      <div class="header-inner">
+      <div class="header__inner">
         <a href="#" class="logo">
           <picture class="logo__img">
             <source src="images/logo-mobile.png" media="(max-width: = 600px)">
@@ -51,12 +52,13 @@
     </div>
   </header>
 
-  <main class="main">
 
-    <section class="page-section top">
+
+  <section class="page-section top">
+    <div class="page-section__wrapper top__wrapper">
       <div class="container">
-        <div class="top-inner">
-          <h1 class="top-title">
+        <div class="top__inner">
+          <h1 class="top__title">
             Mavic 2 Pro
           </h1>
           <img src="images/mavic.png" alt="">
@@ -88,12 +90,14 @@
           <img src="images/arrow-down.svg" alt="">
         </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="products" class="page-section products">
+  <section id="products" class="page-section products">
+    <div class="page-section__wrapper">
       <div class="container">
         <h3 class="title products__title">Что такое Mavic 2 Pro?</h3>
-        <div class="product-inner">
+        <div class="products__inner">
           <div class="products__text">
             <p>Дрон Mavic 2 Pro - это инженерное чудо, идеальное для аэросъемки. Дрон обладает всеми лучшими
               технологиями DJI, он преобразит мир аэросъемки.</p>
@@ -102,7 +106,7 @@
               снимки с воздуха с разрешением в 20 мегапикселей и потрясающими цветами.</p>
           </div>
           <div class="products__slider-box">
-            <p class="prodcts__slider-text">Лучшая беспилотная технология аэросъемки</p>
+            <p class="products__slider-text">Лучшая беспилотная технология аэросъемки</p>
             <div class="products__slider">
               <div class="products__slider-item">
                 <img class="products__slider-img" src="images/slider-1.jpg" alt="">
@@ -131,10 +135,11 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
 
-    </section>
-
-    <section id="benefits" class="page-section benefits">
+  <section id="benefits" class="page-section benefits">
+    <div class="page-section__wrapper">
       <div class="container">
         <h3 class="title benefits__title">Преимущества</h3>
         <div class="benefits__items">
@@ -200,10 +205,11 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
 
-    </section>
-
-    <section id="specification" class="page-section specification">
+  <section id="specification" class="page-section specification">
+    <div class="page-section__wrapper">
       <div class="container">
         <h3 class="title  specification__title">Характеристики</h3>
         <div class="specification__inner">
@@ -242,10 +248,11 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
 
-    </section>
-
-    <section id="questions" class="page-section questions">
+  <section id="questions" class="page-section questions">
+    <div class="page-section__wrapper">
       <div class="container">
         <h3 class="title questions__title">Остались вопросы?</h3>
         <div class="questions__items">
@@ -280,10 +287,11 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
 
-    </section>
-
-    <section id="contacts" class="page-section contacts">
+  <section id="contacts" class="page-section contacts">
+    <div class="page-section__wrapper">
       <div class="container">
         <h3 class="title contacts__title">Контакты</h3>
         <div class="contacts__inner">
@@ -352,10 +360,10 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
 
-    </section>
 
-  </main>
 
   <footer class="footer">
     <div class="container">
@@ -364,6 +372,8 @@
       </p>
     </div>
   </footer>
+
+
 
 
 
