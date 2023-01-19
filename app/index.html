@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Ubuntu:wght@300;400;500;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="../node_modules/fullpage.js/dist/fullpage.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -21,11 +22,14 @@
       <div class="header__inner">
         <a href="#" class="logo">
           <picture class="logo__img">
-            <source src="images/logo-mobile.png" media="(max-width: = 600px)">
+            <source srcset="images/logo-mobile.png" media="(max-width: 600px)">
             <img src="images/logo.png" alt="">
           </picture>
         </a>
         <nav class="menu">
+          <button class="menu__btn">
+            <span class="menu__btn-line"></span>
+          </button>
           <ul class="menu__list">
             <li class="menu__list-item">
               <a class="menu__list-link" href="#">О ДРОНЕ</a>
@@ -42,6 +46,9 @@
             <li class="menu__list-item">
               <a class="menu__list-link" href="#">КОНТАКТЫ</a>
             </li>
+            <li class="menu__list-phone">
+              <a class="header__phone" href="#">8 (050) 567 67 67</a>
+            </li>
           </ul>
         </nav>
         <div class="header-info">
@@ -53,7 +60,7 @@
   </header>
 
 
-
+<main id="fullpage">
   <section class="page-section top">
     <div class="page-section__wrapper top__wrapper">
       <div class="container">
@@ -361,14 +368,14 @@
     </footer>
   </section>
 
+</main>
 
 
 
 
 
 
-
-
+  <script src="../node_modules/fullpage.js/dist/fullpage.js"></script>
   <script src="js/main.min.js"></script>
 </body>
 
