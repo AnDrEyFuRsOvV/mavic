@@ -1,5 +1,6 @@
 html{
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -28,17 +29,12 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
-  margin: 0;
+dd {margin: 0;
+  font-size: inherit;
 }
 
 ul[class] {
   list-style: none;
-}
-
-img {
-  max-width: 100%;
-  display: block;
 }
 
 input,
@@ -50,4 +46,11 @@ select {
 
 a{
   text-decoration: none;
+  color: inherit;
+}
+
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
