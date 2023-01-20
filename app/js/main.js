@@ -16,6 +16,7 @@ $(function () {
     $('#fullpage').fullpage({
         autoScrolling: true,
         scrollHorizontally: true,
-        sectionSelector: '.page-section'
+        sectionSelector: '.page-section',
+        scrollOverflow: true
     });
 });
