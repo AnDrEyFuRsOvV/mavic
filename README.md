@@ -1,1 +1,1 @@
-# There is no adaptive in this project, because this is my old code, and I have a few parts of it left. I don't have time to finish the adaptive now, maybe in the future № I'll do it. Added this work as an experience with such a layout. Should work on desktop.
+#Project not completed but you can look at the idea
